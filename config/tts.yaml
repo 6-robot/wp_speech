@@ -1,0 +1,11 @@
+speech_tts:
+  ros__parameters:
+    speed: 1.0
+    volume: 1.0
+    num_threads: 2
+    queue_size: 10
+    max_chars: 500
+    playback: true
+    audio_backend: auto
+    audio_device: ''
+    output_dir: ''

@@ -1,0 +1,9 @@
+vosk_recognizer:
+  ros__parameters:
+    device: 'default'
+    channels: 1
+    sample_format: 'S16_LE'
+    channel: 0
+    gain: 1.0
+    retry_seconds: 3.0
+    publish_partial: true
